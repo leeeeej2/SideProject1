@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\EscapeRoom.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{148DB4A2-2DC7-465C-B490-87ED1F1A6CA2}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\EscapeRoom.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\EscapeRoomEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{9B6DF425-5010-4998-B20B-B7DBB39394CD}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\EscapeRoom">
+      <UniqueIdentifier>{A7DE1919-EF36-41CE-8696-E486505ABD81}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\EscapeRoom\EscapeRoom.Build.cs">
+      <Filter>Source\EscapeRoom</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\EscapeRoom\EscapeRoom.cpp">
+      <Filter>Source\EscapeRoom</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\EscapeRoom\EscapeRoom.h">
+      <Filter>Source\EscapeRoom</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\EscapeRoom\EscapeRoomCharacter.cpp">
+      <Filter>Source\EscapeRoom</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\EscapeRoom\EscapeRoomCharacter.h">
+      <Filter>Source\EscapeRoom</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\EscapeRoom\EscapeRoomGameMode.cpp">
+      <Filter>Source\EscapeRoom</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\EscapeRoom\EscapeRoomGameMode.h">
+      <Filter>Source\EscapeRoom</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\EscapeRoom\EscapeRoomHUD.cpp">
+      <Filter>Source\EscapeRoom</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\EscapeRoom\EscapeRoomHUD.h">
+      <Filter>Source\EscapeRoom</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\EscapeRoom\EscapeRoomProjectile.cpp">
+      <Filter>Source\EscapeRoom</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\EscapeRoom\EscapeRoomProjectile.h">
+      <Filter>Source\EscapeRoom</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\EscapeRoom\LightSwitchBoth.cpp">
+      <Filter>Source\EscapeRoom</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\EscapeRoom\LightSwitchBoth.h">
+      <Filter>Source\EscapeRoom</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\EscapeRoom\MyActor.cpp">
+      <Filter>Source\EscapeRoom</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\EscapeRoom\MyActor.h">
+      <Filter>Source\EscapeRoom</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
