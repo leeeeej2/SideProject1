@@ -230,8 +230,8 @@
 /I Runtime\Experimental\GeometryCollectionSimulationCore\Public
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\ClothingSystemRuntimeInterface
 /I Runtime\ClothingSystemRuntimeInterface\Public
-/I C:\Users\ADMIN\Desktop\unreal\EscapeRoom\Intermediate\Build\Win64\UE4Editor\Inc\EscapeRoom
-/I C:\Users\ADMIN\Desktop\unreal\EscapeRoom\Source
+/I C:\Users\ADMIN\Documents\SideProject1\EscapeRoom\Intermediate\Build\Win64\UE4Editor\Inc\EscapeRoom
+/I C:\Users\ADMIN\Documents\SideProject1\EscapeRoom\Source
 /I ThirdParty\PhysX3\PxShared\include
 /I ThirdParty\PhysX3\PxShared\include\cudamanager
 /I ThirdParty\PhysX3\PxShared\include\filebuf
@@ -261,12 +261,12 @@
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"
-/FI"C:\Users\ADMIN\Desktop\unreal\EscapeRoom\Intermediate\Build\Win64\EscapeRoomEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Yu"C:\Users\ADMIN\Desktop\unreal\EscapeRoom\Intermediate\Build\Win64\EscapeRoomEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Fp"C:\Users\ADMIN\Desktop\unreal\EscapeRoom\Intermediate\Build\Win64\EscapeRoomEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
-"C:\Users\ADMIN\Desktop\unreal\EscapeRoom\Intermediate\Build\Win64\UE4Editor\Inc\EscapeRoom\EscapeRoom.init.gen.cpp"
-/FI"C:\Users\ADMIN\Desktop\unreal\EscapeRoom\Intermediate\Build\Win64\UE4Editor\Development\EscapeRoom\Definitions.EscapeRoom.h"
-/Fo"C:\Users\ADMIN\Desktop\unreal\EscapeRoom\Intermediate\Build\Win64\UE4Editor\Development\EscapeRoom\EscapeRoom.init.gen.cpp.obj"
+/FI"C:\Users\ADMIN\Documents\SideProject1\EscapeRoom\Intermediate\Build\Win64\EscapeRoomEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Yu"C:\Users\ADMIN\Documents\SideProject1\EscapeRoom\Intermediate\Build\Win64\EscapeRoomEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Fp"C:\Users\ADMIN\Documents\SideProject1\EscapeRoom\Intermediate\Build\Win64\EscapeRoomEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
+"C:\Users\ADMIN\Documents\SideProject1\EscapeRoom\Intermediate\Build\Win64\UE4Editor\Inc\EscapeRoom\EscapeRoom.init.gen.cpp"
+/FI"C:\Users\ADMIN\Documents\SideProject1\EscapeRoom\Intermediate\Build\Win64\UE4Editor\Development\EscapeRoom\Definitions.EscapeRoom.h"
+/Fo"C:\Users\ADMIN\Documents\SideProject1\EscapeRoom\Intermediate\Build\Win64\UE4Editor\Development\EscapeRoom\EscapeRoom.init.gen.cpp.obj"
 /TP
 /GR-
 /W4
