@@ -1,0 +1,23 @@
+﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\ADMIN\Documents\SideProject1).
+  Invalidating makefile for EscapeRoomEditor (source file removed)
+  Parsing headers for EscapeRoomEditor
+    Running UnrealHeaderTool "C:\Users\ADMIN\Documents\SideProject1\EscapeRoom\EscapeRoom.uproject" "C:\Users\ADMIN\Documents\SideProject1\EscapeRoom\Intermediate\Build\Win64\EscapeRoomEditor\Development\EscapeRoomEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\ADMIN\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+  Reflection code generated for EscapeRoomEditor in 5.2949105 seconds
+  Building EscapeRoomEditor...
+  Using Visual Studio 2019 14.25.28614 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Building 11 actions with 12 processes...
+    [1/11] Default.rc2
+    [2/11] SharedPCH.Engine.ShadowErrors.cpp
+    [3/11] EscapeRoom.cpp
+    [4/11] MyActor.cpp
+    [5/11] EscapeRoom.init.gen.cpp
+    [6/11] EscapeRoomGameModeBase.cpp
+    [7/11] MyActor.gen.cpp
+    [8/11] EscapeRoomGameModeBase.gen.cpp
+    [9/11] UE4Editor-EscapeRoom.lib
+       C:\Users\ADMIN\Documents\SideProject1\EscapeRoom\Intermediate\Build\Win64\UE4Editor\Development\EscapeRoom\UE4Editor-EscapeRoom.lib ���̺귯�� �� C:\Users\ADMIN\Documents\SideProject1\EscapeRoom\Intermediate\Build\Win64\UE4Editor\Development\EscapeRoom\UE4Editor-EscapeRoom.exp ��ü�� �����ϰ� �ֽ��ϴ�.
+    [10/11] UE4Editor-EscapeRoom.dll
+       C:\Users\ADMIN\Documents\SideProject1\EscapeRoom\Intermediate\Build\Win64\UE4Editor\Development\EscapeRoom\UE4Editor-EscapeRoom.suppressed.lib ���̺귯�� �� C:\Users\ADMIN\Documents\SideProject1\EscapeRoom\Intermediate\Build\Win64\UE4Editor\Development\EscapeRoom\UE4Editor-EscapeRoom.suppressed.exp ��ü�� �����ϰ� �ֽ��ϴ�.
+    [11/11] EscapeRoomEditor.target
+  Total time in Parallel executor: 27.47 seconds
+  Total execution time: 35.12 seconds

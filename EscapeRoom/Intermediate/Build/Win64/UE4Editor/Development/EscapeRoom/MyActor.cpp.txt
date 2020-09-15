@@ -1,0 +1,3 @@
+C:\Users\ADMIN\Documents\SideProject1\EscapeRoom\Intermediate\Build\Win64\UE4Editor\Development\EscapeRoom\Definitions.EscapeRoom.h
+C:\Users\ADMIN\Documents\SideProject1\EscapeRoom\Source\EscapeRoom\MyActor.h
+C:\Users\ADMIN\Documents\SideProject1\EscapeRoom\Intermediate\Build\Win64\UE4Editor\Inc\EscapeRoom\MyActor.generated.h
