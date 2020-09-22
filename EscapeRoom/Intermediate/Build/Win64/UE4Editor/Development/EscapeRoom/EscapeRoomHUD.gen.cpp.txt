@@ -1,10 +1,10 @@
-C:\Users\ADMIN\Documents\SideProject1\EscapeRoom\Intermediate\Build\Win64\UE4Editor\Development\EscapeRoom\Definitions.EscapeRoom.h
+C:\Escape\EscapeRoom\Intermediate\Build\Win64\UE4Editor\Development\EscapeRoom\Definitions.EscapeRoom.h
 C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
 C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
-C:\Users\ADMIN\Documents\SideProject1\EscapeRoom\Source\EscapeRoom/EscapeRoomHUD.h
+C:\Escape\EscapeRoom\Source\EscapeRoom/EscapeRoomHUD.h
 C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/HUD.h
 C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/HUDHitBox.h
 C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/DebugTextInfo.h
 C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\DebugTextInfo.generated.h
 C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\HUD.generated.h
-C:\Users\ADMIN\Documents\SideProject1\EscapeRoom\Intermediate\Build\Win64\UE4Editor\Inc\EscapeRoom\EscapeRoomHUD.generated.h
+C:\Escape\EscapeRoom\Intermediate\Build\Win64\UE4Editor\Inc\EscapeRoom\EscapeRoomHUD.generated.h

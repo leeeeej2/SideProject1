@@ -32,8 +32,8 @@
 /wd4244
 /wd4838
 /I .
-/I C:\Users\ADMIN\Documents\SideProject1\EscapeRoom\Intermediate\Build\Win64\UE4Editor\Inc\EscapeRoom
-/I C:\Users\ADMIN\Documents\SideProject1\EscapeRoom\Source
+/I C:\Escape\EscapeRoom\Intermediate\Build\Win64\UE4Editor\Inc\EscapeRoom
+/I C:\Escape\EscapeRoom\Source
 /I Runtime
 /I Runtime\TraceLog\Public
 /I Runtime\Core\Public
@@ -257,18 +257,18 @@
 /I ThirdParty\PhysX3\APEX_1.4\shared\general\RenderDebug\public
 /I ThirdParty\PhysX3\APEX_1.4\shared\general\PairFilter\include
 /I ThirdParty\PhysX3\APEX_1.4\shared\internal\include
-/I "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\INCLUDE"
-/I "C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"
+/I "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\INCLUDE"
+/I "C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"
-/FI"C:\Users\ADMIN\Documents\SideProject1\EscapeRoom\Intermediate\Build\Win64\EscapeRoomEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Yu"C:\Users\ADMIN\Documents\SideProject1\EscapeRoom\Intermediate\Build\Win64\EscapeRoomEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Fp"C:\Users\ADMIN\Documents\SideProject1\EscapeRoom\Intermediate\Build\Win64\EscapeRoomEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
-"C:\Users\ADMIN\Documents\SideProject1\EscapeRoom\Intermediate\Build\Win64\UE4Editor\Inc\EscapeRoom\EscapeRoomHUD.gen.cpp"
-/FI"C:\Users\ADMIN\Documents\SideProject1\EscapeRoom\Intermediate\Build\Win64\UE4Editor\Development\EscapeRoom\Definitions.EscapeRoom.h"
-/Fo"C:\Users\ADMIN\Documents\SideProject1\EscapeRoom\Intermediate\Build\Win64\UE4Editor\Development\EscapeRoom\EscapeRoomHUD.gen.cpp.obj"
+/FI"C:\Escape\EscapeRoom\Intermediate\Build\Win64\EscapeRoomEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Yu"C:\Escape\EscapeRoom\Intermediate\Build\Win64\EscapeRoomEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Fp"C:\Escape\EscapeRoom\Intermediate\Build\Win64\EscapeRoomEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
+"C:\Escape\EscapeRoom\Intermediate\Build\Win64\UE4Editor\Inc\EscapeRoom\EscapeRoomHUD.gen.cpp"
+/FI"C:\Escape\EscapeRoom\Intermediate\Build\Win64\UE4Editor\Development\EscapeRoom\Definitions.EscapeRoom.h"
+/Fo"C:\Escape\EscapeRoom\Intermediate\Build\Win64\UE4Editor\Development\EscapeRoom\EscapeRoomHUD.gen.cpp.obj"
 /TP
 /GR-
 /W4

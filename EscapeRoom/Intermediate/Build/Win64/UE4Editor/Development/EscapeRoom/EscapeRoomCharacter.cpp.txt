@@ -1,12 +1,12 @@
-C:\Users\ADMIN\Documents\SideProject1\EscapeRoom\Intermediate\Build\Win64\UE4Editor\Development\EscapeRoom\Definitions.EscapeRoom.h
-C:\Users\ADMIN\Documents\SideProject1\EscapeRoom\Source\EscapeRoom\EscapeRoomCharacter.h
+C:\Escape\EscapeRoom\Intermediate\Build\Win64\UE4Editor\Development\EscapeRoom\Definitions.EscapeRoom.h
+C:\Escape\EscapeRoom\Source\EscapeRoom\EscapeRoomCharacter.h
 C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
 C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
 C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
 C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
-C:\Users\ADMIN\Documents\SideProject1\EscapeRoom\Intermediate\Build\Win64\UE4Editor\Inc\EscapeRoom\EscapeRoomCharacter.generated.h
-C:\Users\ADMIN\Documents\SideProject1\EscapeRoom\Source\EscapeRoom\EscapeRoomProjectile.h
-C:\Users\ADMIN\Documents\SideProject1\EscapeRoom\Intermediate\Build\Win64\UE4Editor\Inc\EscapeRoom\EscapeRoomProjectile.generated.h
+C:\Escape\EscapeRoom\Intermediate\Build\Win64\UE4Editor\Inc\EscapeRoom\EscapeRoomCharacter.generated.h
+C:\Escape\EscapeRoom\Source\EscapeRoom\EscapeRoomProjectile.h
+C:\Escape\EscapeRoom\Intermediate\Build\Win64\UE4Editor\Inc\EscapeRoom\EscapeRoomProjectile.generated.h
 C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\Camera/CameraComponent.h
 C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CameraComponent.generated.h
 C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\Components/CapsuleComponent.h
