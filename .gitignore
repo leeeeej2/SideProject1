@@ -67,8 +67,9 @@ Build/*/**
 Saved/*
 
 # Compiled source files for the engine to use
-EscapeRoom/Intermediate/*
+Escape/EscapeRoom/Intermediate/*
 Plugins/*/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+EscapeRoom/Intermediate/
