@@ -30,3 +30,17 @@
 *.exe
 *.out
 *.app
+
+# UnrealEngine Generated Files 
+*/Build 
+*/Binaries 
+*/DerivedDataCache 
+*/Intermediate 
+*/Saved
+
+# StarterContent를 형상 관리 하지않을경우 
+# EscapeRoom/Content/StarterContent/ 
+
+# VS Generated Files 
+*.suo 
+*.db
