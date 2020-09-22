@@ -1,8 +1,0 @@
-{
-	"SourceFiles": [
-		"C:\\Escape\\EscapeRoom\\Source\\EscapeRoom\\EscapeRoom.Build.cs",
-		"C:\\Escape\\EscapeRoom\\Source\\EscapeRoom.Target.cs",
-		"C:\\Escape\\EscapeRoom\\Source\\EscapeRoomEditor.Target.cs"
-	],
-	"EngineVersion": "4.25.3"
-}

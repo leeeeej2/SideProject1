@@ -1,2 +1,0 @@
-C:\Escape\EscapeRoom\Intermediate\Build\Win64\UE4Editor\Development\EscapeRoom\Definitions.EscapeRoom.h
-C:\Escape\EscapeRoom\Source\EscapeRoom\EscapeRoom.h
