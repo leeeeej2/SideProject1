@@ -1,0 +1,980 @@
+﻿Log file open, 09/22/20 20:58:24
+LogInit: Display: Running engine for game: EscapeRoom
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 1.028297
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +9:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin MovieRenderPipeline
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe -Mode=QueryTargets -Project="C:/Users/ADMIN/Documents/SideProject1/EscapeRoom/EscapeRoom.uproject" -Output="C:/Users/ADMIN/Documents/SideProject1/EscapeRoom/Intermediate/TargetInfo.json"]
+LogInit: Warning: Incompatible or missing module: EscapeRoom
+Running C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe Development Win64 -Project="C:/Users/ADMIN/Documents/SideProject1/EscapeRoom/EscapeRoom.uproject" -TargetType=Editor -Progress -NoEngineChanges -NoHotReloadFromIDE
+Using 'git status' to determine working set for adaptive non-unity build (C:\Users\ADMIN\Documents\SideProject1).
+Creating makefile for EscapeRoomEditor (no existing makefile)
+@progress push 5%
+Parsing headers for EscapeRoomEditor
+  Running UnrealHeaderTool "C:\Users\ADMIN\Documents\SideProject1\EscapeRoom\EscapeRoom.uproject" "C:\Users\ADMIN\Documents\SideProject1\EscapeRoom\Intermediate\Build\Win64\EscapeRoomEditor\Development\EscapeRoomEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\ADMIN\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+Reflection code generated for EscapeRoomEditor in 4.9514889 seconds
+@progress pop
+Building EscapeRoomEditor...
+Using Visual Studio 2019 14.25.28614 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+Building 15 actions with 12 processes...
+  @progress 'Compiling C++ source code...' 0%
+  @progress 'Compiling C++ source code...' 7%
+  [1/15] Default.rc2
+  @progress 'Compiling C++ source code...' 13%
+  [2/15] SharedPCH.Engine.ShadowErrors.cpp
+  @progress 'Compiling C++ source code...' 20%
+  [3/15] EscapeRoom.cpp
+  @progress 'Compiling C++ source code...' 27%
+  [4/15] EscapeRoom.init.gen.cpp
+  @progress 'Compiling C++ source code...' 33%
+  [5/15] EscapeRoomProjectile.cpp
+  @progress 'Compiling C++ source code...' 40%
+  [6/15] EscapeRoomProjectile.gen.cpp
+  @progress 'Compiling C++ source code...' 47%
+  [7/15] EscapeRoomHUD.gen.cpp
+  @progress 'Compiling C++ source code...' 53%
+  [8/15] EscapeRoomGameMode.gen.cpp
+  @progress 'Compiling C++ source code...' 60%
+  [9/15] EscapeRoomGameMode.cpp
+  @progress 'Compiling C++ source code...' 67%
+  [10/15] EscapeRoomCharacter.gen.cpp
+  @progress 'Compiling C++ source code...' 73%
+  [11/15] EscapeRoomHUD.cpp
+  @progress 'Compiling C++ source code...' 80%
+  [12/15] EscapeRoomCharacter.cpp
+  @progress 'Compiling C++ source code...' 87%
+  [13/15] UE4Editor-EscapeRoom.lib
+     C:\Users\ADMIN\Documents\SideProject1\EscapeRoom\Intermediate\Build\Win64\UE4Editor\Development\EscapeRoom\UE4Editor-EscapeRoom.lib ???̺귯?? ?? C:\Users\ADMIN\Documents\SideProject1\EscapeRoom\Intermediate\Build\Win64\UE4Editor\Development\EscapeRoom\UE4Editor-EscapeRoom.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+  @progress 'Compiling C++ source code...' 93%
+  [14/15] UE4Editor-EscapeRoom.dll
+     C:\Users\ADMIN\Documents\SideProject1\EscapeRoom\Intermediate\Build\Win64\UE4Editor\Development\EscapeRoom\UE4Editor-EscapeRoom.suppressed.lib ???̺귯?? ?? C:\Users\ADMIN\Documents\SideProject1\EscapeRoom\Intermediate\Build\Win64\UE4Editor\Development\EscapeRoom\UE4Editor-EscapeRoom.suppressed.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+  @progress 'Compiling C++ source code...' 100%
+  [15/15] EscapeRoomEditor.target
+Total time in Parallel executor: 24.55 seconds
+Total execution time: 38.11 seconds
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.25-CL-13942748
+LogInit: Engine Version: 4.25.3-13942748+++UE4+Release-4.25
+LogInit: Compatible Engine Version: 4.25.0-13144385+++UE4+Release-4.25
+LogInit: Net CL: 13144385
+LogInit: OS: Windows 10 (Release 1903) (), CPU: Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz, GPU: Intel(R) UHD Graphics 630
+LogInit: Compiled (64-bit): Jul 25 2020 02:07:48
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.25
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 26
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 38
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 43
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 7
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 37
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/ADMIN/Documents/SideProject1/EscapeRoom/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2020.09.22-11.59.10:896][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.09.22-11.59.10:896][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.09.22-11.59.10:897][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/ADMIN/Documents/SideProject1/EscapeRoom/Saved/Config/Windows/Engine.ini]
+[2020.09.22-11.59.10:897][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.09.22-11.59.10:897][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/ADMIN/Documents/SideProject1/EscapeRoom/Saved/Config/Windows/Engine.ini]
+[2020.09.22-11.59.10:897][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/ADMIN/Documents/SideProject1/EscapeRoom/Saved/Config/Windows/Engine.ini]
+[2020.09.22-11.59.10:897][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.09.22-11.59.10:897][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.09.22-11.59.10:897][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.09.22-11.59.10:897][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.09.22-11.59.10:897][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.09.22-11.59.10:897][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.09.22-11.59.10:897][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.09.22-11.59.10:897][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.09.22-11.59.10:897][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.09.22-11.59.10:897][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.09.22-11.59.10:897][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.09.22-11.59.10:897][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.09.22-11.59.10:897][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.09.22-11.59.10:897][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2020.09.22-11.59.10:897][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/ADMIN/Documents/SideProject1/EscapeRoom/Saved/Config/Windows/Engine.ini]
+[2020.09.22-11.59.10:897][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.09.22-11.59.10:897][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.09.22-11.59.10:897][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.09.22-11.59.10:897][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.09.22-11.59.10:897][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.09.22-11.59.10:897][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.09.22-11.59.10:897][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2020.09.22-11.59.10:897][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.09.22-11.59.10:897][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.09.22-11.59.10:897][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.09.22-11.59.10:897][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.09.22-11.59.10:897][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.09.22-11.59.10:897][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.09.22-11.59.10:897][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/ADMIN/Documents/SideProject1/EscapeRoom/Saved/Config/Windows/Engine.ini]
+[2020.09.22-11.59.10:897][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/ADMIN/Documents/SideProject1/EscapeRoom/Saved/Config/Windows/Engine.ini]
+[2020.09.22-11.59.10:902][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/ADMIN/Documents/SideProject1/EscapeRoom/Saved/Config/Windows/Scalability.ini]
+[2020.09.22-11.59.10:902][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.09.22-11.59.10:902][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.09.22-11.59.10:902][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/ADMIN/Documents/SideProject1/EscapeRoom/Saved/Config/Windows/Scalability.ini]
+[2020.09.22-11.59.10:902][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.09.22-11.59.10:902][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/ADMIN/Documents/SideProject1/EscapeRoom/Saved/Config/Windows/Scalability.ini]
+[2020.09.22-11.59.10:902][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.09.22-11.59.10:902][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.09.22-11.59.10:902][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.09.22-11.59.10:902][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.09.22-11.59.10:902][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.09.22-11.59.10:902][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.09.22-11.59.10:902][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.09.22-11.59.10:902][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.09.22-11.59.10:902][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.09.22-11.59.10:902][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.09.22-11.59.10:902][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.09.22-11.59.10:902][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.09.22-11.59.10:902][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.09.22-11.59.10:902][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.09.22-11.59.10:902][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.09.22-11.59.10:902][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.09.22-11.59.10:902][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.09.22-11.59.10:902][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.09.22-11.59.10:902][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/ADMIN/Documents/SideProject1/EscapeRoom/Saved/Config/Windows/Scalability.ini]
+[2020.09.22-11.59.10:902][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.09.22-11.59.10:902][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.09.22-11.59.10:902][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.09.22-11.59.10:902][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.09.22-11.59.10:902][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.09.22-11.59.10:902][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.09.22-11.59.10:902][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.09.22-11.59.10:902][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.09.22-11.59.10:902][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.09.22-11.59.10:902][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.09.22-11.59.10:903][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.09.22-11.59.10:903][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.09.22-11.59.10:903][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.09.22-11.59.10:903][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.09.22-11.59.10:903][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.09.22-11.59.10:903][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.09.22-11.59.10:903][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.09.22-11.59.10:903][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.09.22-11.59.10:903][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.09.22-11.59.10:903][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.09.22-11.59.10:903][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.09.22-11.59.10:903][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.09.22-11.59.10:903][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.09.22-11.59.10:903][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.09.22-11.59.10:903][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.09.22-11.59.10:903][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.09.22-11.59.10:903][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.09.22-11.59.10:903][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.09.22-11.59.10:903][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.09.22-11.59.10:903][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.09.22-11.59.10:903][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/ADMIN/Documents/SideProject1/EscapeRoom/Saved/Config/Windows/Scalability.ini]
+[2020.09.22-11.59.10:903][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.09.22-11.59.10:903][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.09.22-11.59.10:903][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.09.22-11.59.10:903][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.09.22-11.59.10:903][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.09.22-11.59.10:903][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.09.22-11.59.10:903][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.09.22-11.59.10:903][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.09.22-11.59.10:903][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.09.22-11.59.10:903][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/ADMIN/Documents/SideProject1/EscapeRoom/Saved/Config/Windows/Scalability.ini]
+[2020.09.22-11.59.10:903][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.09.22-11.59.10:903][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.09.22-11.59.10:903][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.09.22-11.59.10:903][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.09.22-11.59.10:903][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.09.22-11.59.10:903][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.09.22-11.59.10:903][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.09.22-11.59.10:903][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.09.22-11.59.10:903][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.09.22-11.59.10:903][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.09.22-11.59.10:903][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.09.22-11.59.10:903][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.09.22-11.59.10:903][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.09.22-11.59.10:903][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.09.22-11.59.10:903][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.09.22-11.59.10:903][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.09.22-11.59.10:903][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.09.22-11.59.10:903][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.09.22-11.59.10:903][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.09.22-11.59.10:903][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.09.22-11.59.10:903][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.09.22-11.59.10:903][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.09.22-11.59.10:903][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.09.22-11.59.10:903][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.09.22-11.59.10:903][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.09.22-11.59.10:903][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.09.22-11.59.10:903][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/ADMIN/Documents/SideProject1/EscapeRoom/Saved/Config/Windows/Scalability.ini]
+[2020.09.22-11.59.10:903][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.09.22-11.59.10:903][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.09.22-11.59.10:903][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/ADMIN/Documents/SideProject1/EscapeRoom/Saved/Config/Windows/Scalability.ini]
+[2020.09.22-11.59.10:903][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.09.22-11.59.10:903][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.09.22-11.59.10:903][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.09.22-11.59.10:903][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.09.22-11.59.10:903][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.09.22-11.59.10:903][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.09.22-11.59.10:903][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.09.22-11.59.10:904][  0]LogInit: Selected Device Profile: [Windows]
+[2020.09.22-11.59.10:904][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.09.22-11.59.10:905][  0]LogHAL: Display: Platform has ~ 16 GB [17024069632 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.09.22-11.59.10:905][  0]LogInit: Going up to parent DeviceProfile []
+[2020.09.22-11.59.10:906][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/ADMIN/Documents/SideProject1/EscapeRoom/Saved/Config/Windows/Scalability.ini]
+[2020.09.22-11.59.10:906][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.09.22-11.59.10:906][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.09.22-11.59.10:906][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/ADMIN/Documents/SideProject1/EscapeRoom/Saved/Config/Windows/Scalability.ini]
+[2020.09.22-11.59.10:906][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.09.22-11.59.10:906][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/ADMIN/Documents/SideProject1/EscapeRoom/Saved/Config/Windows/Scalability.ini]
+[2020.09.22-11.59.10:906][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.09.22-11.59.10:906][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.09.22-11.59.10:906][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.09.22-11.59.10:906][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.09.22-11.59.10:906][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.09.22-11.59.10:906][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.09.22-11.59.10:906][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.09.22-11.59.10:906][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.09.22-11.59.10:906][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.09.22-11.59.10:906][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.09.22-11.59.10:906][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.09.22-11.59.10:906][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.09.22-11.59.10:906][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.09.22-11.59.10:906][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.09.22-11.59.10:906][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.09.22-11.59.10:906][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.09.22-11.59.10:906][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.09.22-11.59.10:906][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.09.22-11.59.10:906][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/ADMIN/Documents/SideProject1/EscapeRoom/Saved/Config/Windows/Scalability.ini]
+[2020.09.22-11.59.10:906][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.09.22-11.59.10:906][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.09.22-11.59.10:906][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.09.22-11.59.10:906][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.09.22-11.59.10:906][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.09.22-11.59.10:906][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.09.22-11.59.10:906][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.09.22-11.59.10:906][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.09.22-11.59.10:906][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.09.22-11.59.10:906][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.09.22-11.59.10:906][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.09.22-11.59.10:906][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.09.22-11.59.10:906][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.09.22-11.59.10:906][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.09.22-11.59.10:906][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.09.22-11.59.10:906][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.09.22-11.59.10:906][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.09.22-11.59.10:906][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.09.22-11.59.10:907][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.09.22-11.59.10:907][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.09.22-11.59.10:907][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.09.22-11.59.10:907][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.09.22-11.59.10:907][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.09.22-11.59.10:907][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.09.22-11.59.10:907][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.09.22-11.59.10:907][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.09.22-11.59.10:907][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.09.22-11.59.10:907][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.09.22-11.59.10:907][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.09.22-11.59.10:907][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.09.22-11.59.10:907][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/ADMIN/Documents/SideProject1/EscapeRoom/Saved/Config/Windows/Scalability.ini]
+[2020.09.22-11.59.10:907][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.09.22-11.59.10:907][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.09.22-11.59.10:907][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.09.22-11.59.10:907][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.09.22-11.59.10:907][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.09.22-11.59.10:907][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.09.22-11.59.10:907][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.09.22-11.59.10:907][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.09.22-11.59.10:907][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.09.22-11.59.10:907][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/ADMIN/Documents/SideProject1/EscapeRoom/Saved/Config/Windows/Scalability.ini]
+[2020.09.22-11.59.10:907][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.09.22-11.59.10:907][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.09.22-11.59.10:907][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.09.22-11.59.10:907][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.09.22-11.59.10:907][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.09.22-11.59.10:907][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.09.22-11.59.10:907][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.09.22-11.59.10:907][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.09.22-11.59.10:907][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.09.22-11.59.10:907][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.09.22-11.59.10:907][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.09.22-11.59.10:907][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.09.22-11.59.10:907][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.09.22-11.59.10:907][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.09.22-11.59.10:907][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.09.22-11.59.10:907][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.09.22-11.59.10:907][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.09.22-11.59.10:907][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.09.22-11.59.10:907][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.09.22-11.59.10:907][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.09.22-11.59.10:907][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.09.22-11.59.10:907][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.09.22-11.59.10:907][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.09.22-11.59.10:907][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.09.22-11.59.10:907][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.09.22-11.59.10:907][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.09.22-11.59.10:907][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/ADMIN/Documents/SideProject1/EscapeRoom/Saved/Config/Windows/Scalability.ini]
+[2020.09.22-11.59.10:907][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.09.22-11.59.10:907][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.09.22-11.59.10:907][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/ADMIN/Documents/SideProject1/EscapeRoom/Saved/Config/Windows/Scalability.ini]
+[2020.09.22-11.59.10:907][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.09.22-11.59.10:907][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.09.22-11.59.10:907][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.09.22-11.59.10:907][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.09.22-11.59.10:907][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.09.22-11.59.10:907][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.09.22-11.59.10:907][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.09.22-11.59.10:907][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.09.22-11.59.10:907][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.09.22-11.59.10:907][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.09.22-11.59.10:907][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2020.09.22-11.59.10:907][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/ADMIN/Documents/SideProject1/EscapeRoom/Saved/Config/Windows/Engine.ini]
+[2020.09.22-11.59.10:908][  0]LogInit: Computer: DESKTOP-HAAT90A
+[2020.09.22-11.59.10:908][  0]LogInit: User: ADMIN
+[2020.09.22-11.59.10:908][  0]LogInit: CPU Page size=4096, Cores=6
+[2020.09.22-11.59.10:908][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.09.22-11.59.10:908][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2020.09.22-11.59.10:908][  0]LogMemory: Platform Memory Stats for Windows
+[2020.09.22-11.59.10:908][  0]LogMemory: Process Physical Memory: 124.08 MB used, 124.08 MB peak
+[2020.09.22-11.59.10:908][  0]LogMemory: Process Virtual Memory: 97.70 MB used, 97.70 MB peak
+[2020.09.22-11.59.10:908][  0]LogMemory: Physical Memory: 7430.49 MB used,  8804.93 MB free, 16235.42 MB total
+[2020.09.22-11.59.10:908][  0]LogMemory: Virtual Memory: 5229.47 MB used,  134212496.00 MB free, 134217728.00 MB total
+[2020.09.22-11.59.10:913][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.09.22-11.59.11:166][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2020.09.22-11.59.11:169][  0]LogInit: Using OS detected language (ko-KR).
+[2020.09.22-11.59.11:169][  0]LogInit: Using OS detected locale (ko-KR).
+[2020.09.22-11.59.11:187][  0]LogTextLocalizationManager: No specific localization for 'ko-KR' exists, so the 'ko' localization will be used.
+[2020.09.22-11.59.11:376][  0]LogInit: Setting process to per monitor DPI aware
+[2020.09.22-11.59.11:533][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.09.22-11.59.11:534][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.09.22-11.59.13:777][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.09.22-11.59.13:777][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2020.09.22-11.59.13:777][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2020.09.22-11.59.13:777][  0]LogD3D11RHI: D3D11 adapters:
+[2020.09.22-11.59.13:852][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1650' (Feature Level 11_0)
+[2020.09.22-11.59.13:852][  0]LogD3D11RHI:       3964/0/8117 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2020.09.22-11.59.13:871][  0]LogD3D11RHI:    1. 'Intel(R) UHD Graphics 630' (Feature Level 11_0)
+[2020.09.22-11.59.13:871][  0]LogD3D11RHI:       128/0/8117 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2020.09.22-11.59.13:875][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.09.22-11.59.13:875][  0]LogD3D11RHI:       0/0/8117 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.09.22-11.59.13:875][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.09.22-11.59.13:919][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.09.22-11.59.13:919][  0]LogD3D11RHI:     GPU DeviceId: 0x1f91 (for the marketing name, search the web for "GPU Device Id")
+[2020.09.22-11.59.13:919][  0]LogWindows: EnumDisplayDevices:
+[2020.09.22-11.59.13:920][  0]LogWindows:    0. 'Intel(R) UHD Graphics 630' (P:1 D:1)
+[2020.09.22-11.59.13:920][  0]LogWindows:    1. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2020.09.22-11.59.13:920][  0]LogWindows:    2. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2020.09.22-11.59.13:920][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2020.09.22-11.59.13:920][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1650
+[2020.09.22-11.59.13:920][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2020.09.22-11.59.13:920][  0]LogD3D11RHI:      Driver Date: Unknown
+[2020.09.22-11.59.13:921][  0]LogRHI: Texture pool is 2774 MB (70% of 3964 MB)
+[2020.09.22-11.59.13:968][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2020.09.22-11.59.13:970][  0]LogD3D11RHI: [Aftermath] Enabled and primed
+[2020.09.22-11.59.13:971][  0]LogD3D11RHI: Async texture creation enabled
+[2020.09.22-11.59.13:971][  0]LogD3D11RHI: Array index from any shader is supported
+[2020.09.22-11.59.14:000][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.09.22-11.59.14:300][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2020.09.22-11.59.14:321][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2020.09.22-11.59.14:321][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2020.09.22-11.59.14:321][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2020.09.22-11.59.14:321][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2020.09.22-11.59.14:321][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2020.09.22-11.59.14:321][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2020.09.22-11.59.14:321][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2020.09.22-11.59.14:321][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2020.09.22-11.59.14:321][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2020.09.22-11.59.14:321][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2020.09.22-11.59.14:354][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2020.09.22-11.59.14:354][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2020.09.22-11.59.14:371][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2020.09.22-11.59.14:381][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2020.09.22-11.59.14:391][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2020.09.22-11.59.14:400][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2020.09.22-11.59.14:410][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2020.09.22-11.59.14:419][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2020.09.22-11.59.14:430][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2020.09.22-11.59.14:458][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2020.09.22-11.59.14:458][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2020.09.22-11.59.14:474][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2020.09.22-11.59.14:474][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2020.09.22-11.59.14:483][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.09.22-11.59.14:494][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.09.22-11.59.14:504][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.09.22-11.59.14:514][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.09.22-11.59.14:514][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.09.22-11.59.14:558][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.09.22-11.59.14:695][  0]LogShaderCompilers: Guid format shader working directory is -17 characters bigger than the processId version (../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Intermediate/Shaders/WorkingDirectory/1956/).
+[2020.09.22-11.59.14:695][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/ADMIN/AppData/Local/Temp/UnrealShaderWorkingDir/10EE8EB94A24644FEA79D5AAB33D0844/'.
+[2020.09.22-11.59.14:696][  0]LogXGEController: Cleaning working directory: C:/Users/ADMIN/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2020.09.22-11.59.14:697][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.09.22-11.59.14:697][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.09.22-11.59.14:697][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.09.22-11.59.17:439][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.09.22-11.59.17:651][  0]LogDerivedDataCache: Loaded boot cache 0.21s 79MB C:/Users/ADMIN/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.09.22-11.59.17:651][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/ADMIN/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2020.09.22-11.59.17:651][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.09.22-11.59.17:652][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.09.22-11.59.17:652][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.09.22-11.59.17:652][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.09.22-11.59.17:699][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.09.22-11.59.17:699][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.09.22-11.59.17:699][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.09.22-11.59.17:701][  0]LogDerivedDataCache: Using Local data cache path C:/Users/ADMIN/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.09.22-11.59.17:701][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.09.22-11.59.17:701][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.09.22-11.59.17:756][  0]LogSlate: Using FreeType 2.10.0
+[2020.09.22-11.59.17:765][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.09.22-11.59.17:805][  0]LogAssetRegistry: FAssetRegistry took 0.0047 seconds to start up
+[2020.09.22-11.59.18:121][  0]LogInit: Selected Device Profile: [Windows]
+[2020.09.22-11.59.18:414][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.09.22-11.59.18:414][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.09.22-11.59.18:414][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.09.22-11.59.18:414][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.09.22-11.59.18:415][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.09.22-11.59.18:472][  0]LogNetVersion: EscapeRoom 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 2058882427)
+[2020.09.22-11.59.19:675][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (000001CCF2AF6980), frame # 0
+[2020.09.22-11.59.19:675][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001CCF29AEAC0), frame # 0
+[2020.09.22-11.59.19:678][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001CCF2AE6600), frame # 0
+[2020.09.22-11.59.19:752][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.043787 seconds
+[2020.09.22-11.59.19:757][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
+[2020.09.22-11.59.19:757][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
+[2020.09.22-11.59.19:757][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.09.22-11.59.20:610][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.09.22-11.59.20:655][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.09.22-11.59.21:157][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2020.09.22-11.59.21:157][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2020.09.22-11.59.21:164][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2020.09.22-11.59.21:169][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2020.09.22-11.59.21:178][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2020.09.22-11.59.21:590][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.09.22-11.59.21:613][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.09.22-11.59.21:613][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.09.22-11.59.21:697][  0]LogOcInput: OculusInput pre-init called
+[2020.09.22-11.59.21:711][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2020.09.22-11.59.21:711][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2020.09.22-11.59.21:822][  0]LogEngine: Initializing Engine...
+[2020.09.22-11.59.21:824][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.09.22-11.59.21:824][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2020.09.22-11.59.21:828][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.001 s
+[2020.09.22-11.59.21:936][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.09.22-11.59.21:975][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.09.22-11.59.21:975][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001CCF7423C00), frame # 0
+[2020.09.22-11.59.21:975][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001CCF7490B80), frame # 0
+[2020.09.22-11.59.21:985][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.09.22-11.59.21:985][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.09.22-11.59.21:985][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.09.22-11.59.21:985][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.09.22-11.59.21:985][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.09.22-11.59.21:985][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.09.22-11.59.21:985][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.09.22-11.59.21:985][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.09.22-11.59.21:986][  0]LogAudio: Display: Using built-in audio occlusion.
+[2020.09.22-11.59.21:986][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.09.22-11.59.22:015][  0]LogAudioMixer: Display: 0: FrontLeft
+[2020.09.22-11.59.22:015][  0]LogAudioMixer: Display: 1: FrontRight
+[2020.09.22-11.59.22:047][  0]LogAudioMixer: Display: Using Audio Device 헤드폰(을찐팟 Stereo)
+[2020.09.22-11.59.22:050][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.09.22-11.59.22:052][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.09.22-11.59.22:052][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.09.22-11.59.22:053][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.09.22-11.59.22:054][  0]LogInit: FAudioDevice initialized.
+[2020.09.22-11.59.22:055][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.09.22-11.59.22:105][  0]LogDerivedDataCache: Saved boot cache 0.05s 79MB C:/Users/ADMIN/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.09.22-11.59.22:109][  0]LogInit: Texture streaming: Enabled
+[2020.09.22-11.59.22:129][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.09.22-11.59.22:129][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.09.22-11.59.22:132][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.09.22-11.59.22:165][  0]LogInit: Transaction tracking system initialized
+[2020.09.22-11.59.22:216][  0]BlueprintLog: New page: 에디터 로드
+[2020.09.22-11.59.22:431][  0]LocalizationService: 현지화 서비스가 비활성화되었습니다.
+[2020.09.22-11.59.22:718][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.09.22-11.59.22:718][  0]LogCook: Display: Mobile HDR setting 1
+[2020.09.22-11.59.22:931][  0]LogFileCache: Scanning file cache for directory 'C:/Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/' took 0.00s
+[2020.09.22-11.59.23:209][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2020.09.22-11.59.23:209][  0]LogUnrealEdMisc: Loading editor; pre map load, took 63.237
+[2020.09.22-11.59.23:218][  0]LogFactory: FactoryCreateFile: PackFactory with PackFactory (0 0 C:/Program Files/Epic Games/UE_4.25/FeaturePacks/StarterContent.upack)
+[2020.09.22-11.59.23:228][  0]LogPackFactory: Finished extracting 8 files (including 0 errors).
+[2020.09.22-11.59.23:237][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Floor_400x400.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Architecture/Floor_400x400.uasset"
+[2020.09.22-11.59.23:246][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Pillar_50x500.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Architecture/Pillar_50x500.uasset"
+[2020.09.22-11.59.23:255][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/SM_AssetPlatform.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Architecture/SM_AssetPlatform.uasset"
+[2020.09.22-11.59.23:263][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x200.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Architecture/Wall_400x200.uasset"
+[2020.09.22-11.59.23:272][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x300.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Architecture/Wall_400x300.uasset"
+[2020.09.22-11.59.23:280][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x400.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Architecture/Wall_400x400.uasset"
+[2020.09.22-11.59.23:288][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_500x500.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Architecture/Wall_500x500.uasset"
+[2020.09.22-11.59.23:298][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x300.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Architecture/Wall_Door_400x300.uasset"
+[2020.09.22-11.59.23:306][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x400.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Architecture/Wall_Door_400x400.uasset"
+[2020.09.22-11.59.23:314][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x300.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Architecture/Wall_Window_400x300.uasset"
+[2020.09.22-11.59.23:322][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x400.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Architecture/Wall_Window_400x400.uasset"
+[2020.09.22-11.59.23:331][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse01.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Audio/Collapse01.uasset"
+[2020.09.22-11.59.23:339][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse02.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Audio/Collapse02.uasset"
+[2020.09.22-11.59.23:344][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse_Cue.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Audio/Collapse_Cue.uasset"
+[2020.09.22-11.59.23:352][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion01.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Audio/Explosion01.uasset"
+[2020.09.22-11.59.23:360][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion02.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Audio/Explosion02.uasset"
+[2020.09.22-11.59.23:364][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion_Cue.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Audio/Explosion_Cue.uasset"
+[2020.09.22-11.59.23:373][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Audio/Fire01.uasset"
+[2020.09.22-11.59.23:377][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01_Cue.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Audio/Fire01_Cue.uasset"
+[2020.09.22-11.59.23:386][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Audio/Fire_Sparks01.uasset"
+[2020.09.22-11.59.23:391][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset"
+[2020.09.22-11.59.23:398][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Audio/Light01.uasset"
+[2020.09.22-11.59.23:404][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01_Cue.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Audio/Light01_Cue.uasset"
+[2020.09.22-11.59.23:413][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Audio/Light02.uasset"
+[2020.09.22-11.59.23:417][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02_Cue.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Audio/Light02_Cue.uasset"
+[2020.09.22-11.59.23:427][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Audio/Smoke01.uasset"
+[2020.09.22-11.59.23:431][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01_Cue.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Audio/Smoke01_Cue.uasset"
+[2020.09.22-11.59.23:439][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Background_Cue.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Audio/Starter_Background_Cue.uasset"
+[2020.09.22-11.59.23:454][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Birds01.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Audio/Starter_Birds01.uasset"
+[2020.09.22-11.59.23:478][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music01.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Audio/Starter_Music01.uasset"
+[2020.09.22-11.59.23:484][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music_Cue.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Audio/Starter_Music_Cue.uasset"
+[2020.09.22-11.59.23:498][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind05.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Audio/Starter_Wind05.uasset"
+[2020.09.22-11.59.23:509][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind06.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Audio/Starter_Wind06.uasset"
+[2020.09.22-11.59.23:518][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Audio/Steam01.uasset"
+[2020.09.22-11.59.23:524][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01_Cue.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Audio/Steam01_Cue.uasset"
+[2020.09.22-11.59.23:533][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset"
+[2020.09.22-11.59.23:541][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset"
+[2020.09.22-11.59.23:549][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset"
+[2020.09.22-11.59.23:557][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset"
+[2020.09.22-11.59.23:565][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset"
+[2020.09.22-11.59.23:573][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset"
+[2020.09.22-11.59.23:582][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset"
+[2020.09.22-11.59.23:590][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/BP_LightStudio.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Blueprints/BP_LightStudio.uasset"
+[2020.09.22-11.59.23:594][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset"
+[2020.09.22-11.59.23:602][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset"
+[2020.09.22-11.59.23:609][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset"
+[2020.09.22-11.59.23:617][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset"
+[2020.09.22-11.59.23:625][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset"
+[2020.09.22-11.59.23:633][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/Skybox.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Blueprints/Assets/Skybox.uasset"
+[2020.09.22-11.59.23:653][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset"
+[2020.09.22-11.59.23:658][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset"
+[2020.09.22-11.59.23:816][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset"
+[2020.09.22-11.59.23:828][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting.umap" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Maps/Advanced_Lighting.umap"
+[2020.09.22-11.59.23:838][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset"
+[2020.09.22-11.59.23:848][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default.umap" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Maps/Minimal_Default.umap"
+[2020.09.22-11.59.23:862][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset"
+[2020.09.22-11.59.23:872][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap.umap" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Maps/StarterMap.umap"
+[2020.09.22-11.59.23:932][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap_BuiltData.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Maps/StarterMap_BuiltData.uasset"
+[2020.09.22-11.59.23:941][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_AssetPlatform.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Materials/M_AssetPlatform.uasset"
+[2020.09.22-11.59.23:949][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Floor.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Materials/M_Basic_Floor.uasset"
+[2020.09.22-11.59.23:958][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Wall.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Materials/M_Basic_Wall.uasset"
+[2020.09.22-11.59.23:965][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset"
+[2020.09.22-11.59.23:974][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_New.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Materials/M_Brick_Clay_New.uasset"
+[2020.09.22-11.59.23:982][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset"
+[2020.09.22-11.59.23:991][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset"
+[2020.09.22-11.59.23:999][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset"
+[2020.09.22-11.59.24:008][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset"
+[2020.09.22-11.59.24:016][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset"
+[2020.09.22-11.59.24:025][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset"
+[2020.09.22-11.59.24:034][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset"
+[2020.09.22-11.59.24:043][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset"
+[2020.09.22-11.59.24:052][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Grime.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Materials/M_Concrete_Grime.uasset"
+[2020.09.22-11.59.24:060][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Panels.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Materials/M_Concrete_Panels.uasset"
+[2020.09.22-11.59.24:069][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Poured.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Materials/M_Concrete_Poured.uasset"
+[2020.09.22-11.59.24:078][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Tiles.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Materials/M_Concrete_Tiles.uasset"
+[2020.09.22-11.59.24:087][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Glass.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Materials/M_Glass.uasset"
+[2020.09.22-11.59.24:095][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Grass.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Materials/M_Ground_Grass.uasset"
+[2020.09.22-11.59.24:102][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Gravel.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Materials/M_Ground_Gravel.uasset"
+[2020.09.22-11.59.24:110][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Moss.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Materials/M_Ground_Moss.uasset"
+[2020.09.22-11.59.24:117][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset"
+[2020.09.22-11.59.24:125][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset"
+[2020.09.22-11.59.24:134][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Chrome.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Materials/M_Metal_Chrome.uasset"
+[2020.09.22-11.59.24:143][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Copper.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Materials/M_Metal_Copper.uasset"
+[2020.09.22-11.59.24:151][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Gold.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Materials/M_Metal_Gold.uasset"
+[2020.09.22-11.59.24:159][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Rust.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Materials/M_Metal_Rust.uasset"
+[2020.09.22-11.59.24:166][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Steel.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Materials/M_Metal_Steel.uasset"
+[2020.09.22-11.59.24:174][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Basalt.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Materials/M_Rock_Basalt.uasset"
+[2020.09.22-11.59.24:182][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset"
+[2020.09.22-11.59.24:191][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Sandstone.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Materials/M_Rock_Sandstone.uasset"
+[2020.09.22-11.59.24:200][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Slate.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Materials/M_Rock_Slate.uasset"
+[2020.09.22-11.59.24:210][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset"
+[2020.09.22-11.59.24:221][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset"
+[2020.09.22-11.59.24:229][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset"
+[2020.09.22-11.59.24:237][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Panel.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Materials/M_Tech_Panel.uasset"
+[2020.09.22-11.59.24:245][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Lake.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Materials/M_Water_Lake.uasset"
+[2020.09.22-11.59.24:254][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Ocean.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Materials/M_Water_Ocean.uasset"
+[2020.09.22-11.59.24:263][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset"
+[2020.09.22-11.59.24:273][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset"
+[2020.09.22-11.59.24:280][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Oak.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Materials/M_Wood_Oak.uasset"
+[2020.09.22-11.59.24:290][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Pine.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Materials/M_Wood_Pine.uasset"
+[2020.09.22-11.59.24:298][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Walnut.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Materials/M_Wood_Walnut.uasset"
+[2020.09.22-11.59.24:309][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Ambient_Dust.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Particles/P_Ambient_Dust.uasset"
+[2020.09.22-11.59.24:319][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Explosion.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Particles/P_Explosion.uasset"
+[2020.09.22-11.59.24:329][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Fire.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Particles/P_Fire.uasset"
+[2020.09.22-11.59.24:339][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Smoke.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Particles/P_Smoke.uasset"
+[2020.09.22-11.59.24:348][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Sparks.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Particles/P_Sparks.uasset"
+[2020.09.22-11.59.24:357][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Steam_Lit.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Particles/P_Steam_Lit.uasset"
+[2020.09.22-11.59.24:364][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Burst.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Particles/Materials/M_Burst.uasset"
+[2020.09.22-11.59.24:373][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset"
+[2020.09.22-11.59.24:382][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset"
+[2020.09.22-11.59.24:390][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset"
+[2020.09.22-11.59.24:398][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/m_flare_01.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Particles/Materials/m_flare_01.uasset"
+[2020.09.22-11.59.24:406][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset"
+[2020.09.22-11.59.24:414][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset"
+[2020.09.22-11.59.24:422][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset"
+[2020.09.22-11.59.24:431][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset"
+[2020.09.22-11.59.24:440][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Spark.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Particles/Materials/M_Spark.uasset"
+[2020.09.22-11.59.24:448][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/MaterialSphere.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Props/MaterialSphere.uasset"
+[2020.09.22-11.59.24:461][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Bush.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Props/SM_Bush.uasset"
+[2020.09.22-11.59.24:469][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Chair.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Props/SM_Chair.uasset"
+[2020.09.22-11.59.24:477][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_CornerFrame.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Props/SM_CornerFrame.uasset"
+[2020.09.22-11.59.24:485][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Couch.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Props/SM_Couch.uasset"
+[2020.09.22-11.59.24:493][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Door.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Props/SM_Door.uasset"
+[2020.09.22-11.59.24:501][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_DoorFrame.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Props/SM_DoorFrame.uasset"
+[2020.09.22-11.59.24:514][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_GlassWindow.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Props/SM_GlassWindow.uasset"
+[2020.09.22-11.59.24:523][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset"
+[2020.09.22-11.59.24:531][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Wall.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Props/SM_Lamp_Wall.uasset"
+[2020.09.22-11.59.24:548][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset"
+[2020.09.22-11.59.24:555][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Props/SM_PillarFrame.uasset"
+[2020.09.22-11.59.24:563][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame300.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Props/SM_PillarFrame300.uasset"
+[2020.09.22-11.59.24:571][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Rock.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Props/SM_Rock.uasset"
+[2020.09.22-11.59.24:579][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Shelf.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Props/SM_Shelf.uasset"
+[2020.09.22-11.59.24:587][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Stairs.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Props/SM_Stairs.uasset"
+[2020.09.22-11.59.24:595][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Statue.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Props/SM_Statue.uasset"
+[2020.09.22-11.59.24:621][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_TableRound.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Props/SM_TableRound.uasset"
+[2020.09.22-11.59.24:628][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_WindowFrame.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Props/SM_WindowFrame.uasset"
+[2020.09.22-11.59.24:636][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Bush.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Props/Materials/M_Bush.uasset"
+[2020.09.22-11.59.24:644][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Chair.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Props/Materials/M_Chair.uasset"
+[2020.09.22-11.59.24:652][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Door.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Props/Materials/M_Door.uasset"
+[2020.09.22-11.59.24:659][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Frame.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Props/Materials/M_Frame.uasset"
+[2020.09.22-11.59.24:667][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Lamp.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Props/Materials/M_Lamp.uasset"
+[2020.09.22-11.59.24:675][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset"
+[2020.09.22-11.59.24:684][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset"
+[2020.09.22-11.59.24:693][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Rock.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Props/Materials/M_Rock.uasset"
+[2020.09.22-11.59.24:703][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Shelf.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Props/Materials/M_Shelf.uasset"
+[2020.09.22-11.59.24:712][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Statue.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Props/Materials/M_Statue.uasset"
+[2020.09.22-11.59.24:722][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_StatueGlass.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Props/Materials/M_StatueGlass.uasset"
+[2020.09.22-11.59.24:733][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_TableRound.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Props/Materials/M_TableRound.uasset"
+[2020.09.22-11.59.24:743][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cone.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Shapes/Shape_Cone.uasset"
+[2020.09.22-11.59.24:754][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cube.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Shapes/Shape_Cube.uasset"
+[2020.09.22-11.59.24:768][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cylinder.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Shapes/Shape_Cylinder.uasset"
+[2020.09.22-11.59.24:779][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset"
+[2020.09.22-11.59.24:790][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Shapes/Shape_Pipe.uasset"
+[2020.09.22-11.59.24:799][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_180.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Shapes/Shape_Pipe_180.uasset"
+[2020.09.22-11.59.24:809][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_90.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Shapes/Shape_Pipe_90.uasset"
+[2020.09.22-11.59.24:819][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Plane.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Shapes/Shape_Plane.uasset"
+[2020.09.22-11.59.24:828][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset"
+[2020.09.22-11.59.24:839][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Sphere.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Shapes/Shape_Sphere.uasset"
+[2020.09.22-11.59.24:847][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Torus.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Shapes/Shape_Torus.uasset"
+[2020.09.22-11.59.24:856][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Shapes/Shape_Trim.uasset"
+[2020.09.22-11.59.24:867][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset"
+[2020.09.22-11.59.24:877][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset"
+[2020.09.22-11.59.24:887][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_TriPyramid.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Shapes/Shape_TriPyramid.uasset"
+[2020.09.22-11.59.24:895][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Tube.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Shapes/Shape_Tube.uasset"
+[2020.09.22-11.59.24:905][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_A.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Shapes/Shape_Wedge_A.uasset"
+[2020.09.22-11.59.24:913][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_B.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Shapes/Shape_Wedge_B.uasset"
+[2020.09.22-11.59.24:923][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_WideCapsule.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Shapes/Shape_WideCapsule.uasset"
+[2020.09.22-11.59.24:947][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset"
+[2020.09.22-11.59.24:975][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset"
+[2020.09.22-11.59.24:998][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset"
+[2020.09.22-11.59.25:019][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset"
+[2020.09.22-11.59.25:044][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset"
+[2020.09.22-11.59.25:068][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset"
+[2020.09.22-11.59.25:100][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset"
+[2020.09.22-11.59.25:125][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset"
+[2020.09.22-11.59.25:162][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset"
+[2020.09.22-11.59.25:187][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset"
+[2020.09.22-11.59.25:210][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset"
+[2020.09.22-11.59.25:232][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset"
+[2020.09.22-11.59.25:258][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset"
+[2020.09.22-11.59.25:269][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Burst_M.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Textures/T_Burst_M.uasset"
+[2020.09.22-11.59.25:277][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_D.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Textures/T_Bush_D.uasset"
+[2020.09.22-11.59.25:286][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_N.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Textures/T_Bush_N.uasset"
+[2020.09.22-11.59.25:295][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset"
+[2020.09.22-11.59.25:304][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset"
+[2020.09.22-11.59.25:313][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_M.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Textures/T_Chair_M.uasset"
+[2020.09.22-11.59.25:333][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_N.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Textures/T_Chair_N.uasset"
+[2020.09.22-11.59.25:344][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Checker_Noise_M.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Textures/T_Checker_Noise_M.uasset"
+[2020.09.22-11.59.25:376][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset"
+[2020.09.22-11.59.25:387][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset"
+[2020.09.22-11.59.25:414][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset"
+[2020.09.22-11.59.25:437][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset"
+[2020.09.22-11.59.25:451][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset"
+[2020.09.22-11.59.25:497][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset"
+[2020.09.22-11.59.25:516][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset"
+[2020.09.22-11.59.25:551][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset"
+[2020.09.22-11.59.25:581][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset"
+[2020.09.22-11.59.25:605][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset"
+[2020.09.22-11.59.25:627][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset"
+[2020.09.22-11.59.25:656][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset"
+[2020.09.22-11.59.25:686][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset"
+[2020.09.22-11.59.25:702][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset"
+[2020.09.22-11.59.25:720][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset"
+[2020.09.22-11.59.25:742][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset"
+[2020.09.22-11.59.25:747][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset"
+[2020.09.22-11.59.25:759][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset"
+[2020.09.22-11.59.25:768][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_M.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Textures/T_Door_M.uasset"
+[2020.09.22-11.59.25:777][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_N.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Textures/T_Door_N.uasset"
+[2020.09.22-11.59.25:786][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Dust_Particle_D.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Textures/T_Dust_Particle_D.uasset"
+[2020.09.22-11.59.25:799][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Explosion_SubUV.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Textures/T_Explosion_SubUV.uasset"
+[2020.09.22-11.59.25:808][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_SubUV.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Textures/T_Fire_SubUV.uasset"
+[2020.09.22-11.59.25:815][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset"
+[2020.09.22-11.59.25:824][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_M.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Textures/T_Frame_M.uasset"
+[2020.09.22-11.59.25:834][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_N.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Textures/T_Frame_N.uasset"
+[2020.09.22-11.59.25:838][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Gradinet_01.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Textures/T_Gradinet_01.uasset"
+[2020.09.22-11.59.25:870][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_D.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Textures/T_Ground_Grass_D.uasset"
+[2020.09.22-11.59.25:906][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_N.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Textures/T_Ground_Grass_N.uasset"
+[2020.09.22-11.59.25:936][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset"
+[2020.09.22-11.59.25:960][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset"
+[2020.09.22-11.59.26:008][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_ground_Moss_D.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Textures/T_ground_Moss_D.uasset"
+[2020.09.22-11.59.26:031][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Moss_N.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Textures/T_Ground_Moss_N.uasset"
+[2020.09.22-11.59.26:043][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_M.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Textures/T_Lamp_M.uasset"
+[2020.09.22-11.59.26:057][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_N.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Textures/T_Lamp_N.uasset"
+[2020.09.22-11.59.26:098][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_MacroVariation.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Textures/T_MacroVariation.uasset"
+[2020.09.22-11.59.26:127][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset"
+[2020.09.22-11.59.26:162][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Copper_D.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Textures/T_Metal_Copper_D.uasset"
+[2020.09.22-11.59.26:192][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_D.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Textures/T_Metal_Gold_D.uasset"
+[2020.09.22-11.59.26:207][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_N.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Textures/T_Metal_Gold_N.uasset"
+[2020.09.22-11.59.26:230][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_D.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Textures/T_Metal_Rust_D.uasset"
+[2020.09.22-11.59.26:251][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_N.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Textures/T_Metal_Rust_N.uasset"
+[2020.09.22-11.59.26:272][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_D.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Textures/T_Metal_Steel_D.uasset"
+[2020.09.22-11.59.26:289][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_N.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Textures/T_Metal_Steel_N.uasset"
+[2020.09.22-11.59.26:326][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset"
+[2020.09.22-11.59.26:340][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_M.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Textures/T_RockMesh_M.uasset"
+[2020.09.22-11.59.26:362][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_N.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Textures/T_RockMesh_N.uasset"
+[2020.09.22-11.59.26:391][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset"
+[2020.09.22-11.59.26:414][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset"
+[2020.09.22-11.59.26:433][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset"
+[2020.09.22-11.59.26:464][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset"
+[2020.09.22-11.59.26:491][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset"
+[2020.09.22-11.59.26:520][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_D.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Textures/T_Rock_Slate_D.uasset"
+[2020.09.22-11.59.26:553][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_N.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Textures/T_Rock_Slate_N.uasset"
+[2020.09.22-11.59.26:585][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset"
+[2020.09.22-11.59.26:596][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_M.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Textures/T_Shelf_M.uasset"
+[2020.09.22-11.59.26:609][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_N.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Textures/T_Shelf_N.uasset"
+[2020.09.22-11.59.26:617][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Single_Tile_N.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Textures/T_Single_Tile_N.uasset"
+[2020.09.22-11.59.26:644][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_SubUV.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Textures/T_Smoke_SubUV.uasset"
+[2020.09.22-11.59.26:654][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset"
+[2020.09.22-11.59.26:664][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Spark_Core.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Textures/T_Spark_Core.uasset"
+[2020.09.22-11.59.26:674][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_M.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Textures/T_Statue_M.uasset"
+[2020.09.22-11.59.26:685][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_N.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Textures/T_Statue_N.uasset"
+[2020.09.22-11.59.26:718][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_M.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Textures/T_TableRound_M.uasset"
+[2020.09.22-11.59.26:728][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_N.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Textures/T_TableRound_N.uasset"
+[2020.09.22-11.59.26:737][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_M.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Textures/T_Tech_Dot_M.uasset"
+[2020.09.22-11.59.26:744][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_N.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Textures/T_Tech_Dot_N.uasset"
+[2020.09.22-11.59.26:753][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset"
+[2020.09.22-11.59.26:770][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset"
+[2020.09.22-11.59.26:783][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_M.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Textures/T_Tech_Panel_M.uasset"
+[2020.09.22-11.59.26:794][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_N.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Textures/T_Tech_Panel_N.uasset"
+[2020.09.22-11.59.26:806][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_M.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Textures/T_Water_M.uasset"
+[2020.09.22-11.59.26:817][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_N.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Textures/T_Water_N.uasset"
+[2020.09.22-11.59.26:834][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset"
+[2020.09.22-11.59.26:850][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset"
+[2020.09.22-11.59.26:868][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset"
+[2020.09.22-11.59.26:895][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_D.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Textures/T_Wood_Oak_D.uasset"
+[2020.09.22-11.59.26:916][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_N.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Textures/T_Wood_Oak_N.uasset"
+[2020.09.22-11.59.26:944][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_D.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Textures/T_Wood_Pine_D.uasset"
+[2020.09.22-11.59.26:960][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_N.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Textures/T_Wood_Pine_N.uasset"
+[2020.09.22-11.59.26:986][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset"
+[2020.09.22-11.59.27:002][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset" to "../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset"
+[2020.09.22-11.59.27:104][  0]LogRenderer: Reallocating scene render targets to support 256x256 Format 10 NumSamples 1 (Frame:1).
+[2020.09.22-11.59.27:213][  0]LogSavePackage: Moving '../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Saved/Floor_400x4002366786E492FD19D661C8A822E7B5854.tmp' to '../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/StarterContent/Architecture/Floor_400x400.uasset'
+[2020.09.22-11.59.27:221][  0]LogFeaturePack: Warning: Inserted 1 feature packs
+[2020.09.22-11.59.27:225][  0]Cmd: MAP LOAD FILE="../../../../../../Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.09.22-11.59.27:226][  0]LightingResults: New page: 라이팅 빌드
+[2020.09.22-11.59.27:230][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.09.22-11.59.27:231][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.22-11.59.27:232][  0]MapCheck: New page: 맵 체크
+[2020.09.22-11.59.27:232][  0]LightingResults: New page: 라이팅 빌드
+[2020.09.22-11.59.27:258][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001CCF7423C00), frame # 0
+[2020.09.22-11.59.27:258][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001CCF7490B80), frame # 0
+[2020.09.22-11.59.27:259][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2020.09.22-11.59.27:355][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2020.09.22-11.59.27:356][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001CC89EA7E00), frame # 0
+[2020.09.22-11.59.27:356][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001CCF136AAC0), frame # 0
+[2020.09.22-11.59.27:391][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.09.22-11.59.27:406][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2020.09.22-11.59.27:406][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.09.22-11.59.27:407][  0]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 0.407ms.
+[2020.09.22-11.59.27:407][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.183
+[2020.09.22-11.59.27:435][  0]LogUnrealEdMisc: Total Editor Startup Time, took 67.463
+[2020.09.22-11.59.27:637][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.22-11.59.27:645][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.22-11.59.27:651][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.22-11.59.27:657][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.22-11.59.27:680][  0]LogCollectionManager: Loaded 0 collections in 0.001621 seconds
+[2020.09.22-11.59.27:724][  0]LogFileCache: Scanning file cache for directory 'C:/Users/ADMIN/Documents/SideProject1/EscapeRoom/Saved/Collections/' took 0.00s
+[2020.09.22-11.59.27:724][  0]LogFileCache: Scanning file cache for directory 'C:/Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/Developers/ADMIN/Collections/' took 0.00s
+[2020.09.22-11.59.27:724][  0]LogFileCache: Scanning file cache for directory 'C:/Users/ADMIN/Documents/SideProject1/EscapeRoom/Content/Collections/' took 0.00s
+[2020.09.22-11.59.27:724][  0]LogContentBrowser: Native class hierarchy populated in 0.0135 seconds. Added 3431 classes and 823 folders.
+[2020.09.22-11.59.27:740][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2020.09.22-11.59.28:096][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.09.22-11.59.28:107][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 2 classes and 0 folders.
+[2020.09.22-11.59.28:225][  0]LogSlate: Took 0.006169 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.09.22-11.59.28:240][  0]LogSlate: Took 0.013072 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothic.ttf' (4243K)
+[2020.09.22-11.59.28:261][  0]LogSlate: Took 0.014351 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothicBold.ttf' (4188K)
+[2020.09.22-11.59.28:266][  0]LogSlate: Took 0.004984 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.09.22-11.59.28:281][  0]LogSlate: Took 0.005717 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.09.22-11.59.28:409][  0]LogRenderer: Reallocating scene render targets to support 892x432 Format 10 NumSamples 1 (Frame:1).
+[2020.09.22-11.59.28:468][  0]LogSlate: Took 0.006289 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.09.22-11.59.28:546][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2020.09.22-11.59.28:546][  0]LogLoad: (Engine Initialization) Total time: 68.57 seconds
+[2020.09.22-11.59.28:546][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.09.22-11.59.28:569][  0]AssetCheck: New page: 애셋 저장: Floor_400x400
+[2020.09.22-11.59.28:569][  0]LogContentValidation: Display: StaticMesh /Game/StarterContent/Architecture/Floor_400x400.Floor_400x400 유효성 검사
+[2020.09.22-11.59.28:691][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.09.22-11.59.28:880][  5]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2020.09.22-11.59.31:197][251]LogAssetRegistry: Asset discovery search completed in 13.3920 seconds
+[2020.09.22-11.59.31:201][251]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000122 seconds (updated 0 objects)
