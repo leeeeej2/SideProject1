@@ -13,6 +13,7 @@ class AEscapeRoomGameMode : public AGameModeBase
 
 public:
 	AEscapeRoomGameMode();
+	virtual void StartPlay() override;
 };
 
 
